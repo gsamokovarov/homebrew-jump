@@ -8,3 +8,5 @@ Packages for [jump], a fuzzy quick-directory jumper.
 brew tap gsamokovarov/jump-pkg
 brew install jump
 ```
+
+[jump]: https://github.com/gsamokovarov/jump
