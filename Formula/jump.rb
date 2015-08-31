@@ -1,7 +1,7 @@
 require "language/go"
 
 class Jump < Formula
-  desc "Like autojump or z, but fuzzy."
+  desc "A fuzzy quick-directory jumper."
   homepage "https://github.com/gsamokovarov/jump"
   url "https://github.com/gsamokovarov/jump/archive/0.1.0.tar.gz"
   sha256 "755f5b2a828eb36756a44473e5ac8ed423cee6b0"
