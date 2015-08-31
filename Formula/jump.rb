@@ -21,7 +21,7 @@ class Jump < Formula
 
   def caveats; <<-EOS.undent
     To install shell integration, follow the instructions at:
-      #{prefix}/jump shell
+      #{prefix}/bin/jump shell
     EOS
   end
 
