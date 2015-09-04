@@ -15,7 +15,7 @@ class Jump < Formula
     ln_s buildpath, buildpath/"src/github.com/gsamokovarov/jump"
     Language::Go.stage_deps resources, buildpath/"src"
 
-    system "go", "build"
+    system "go build -o jump"
     bin.install "jump"
   end
 
