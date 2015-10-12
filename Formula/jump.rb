@@ -4,7 +4,7 @@ class Jump < Formula
   desc "A quick and fuzzy directory jumper."
   homepage "https://github.com/gsamokovarov/jump"
   url "https://codeload.github.com/gsamokovarov/jump/tar.gz/v0.3.0"
-  sha256 "cd009129c7a2b90eb004df3fe7009b7d62ef48f144f66fb96f741f80f7e5a766"
+  sha256 "c277be2eb7455b60ce208ff3f6617c5822a861c910d0de186e3eaaca560fffb8"
   head "https://github.com/gsamokovarov/jump.git"
 
   depends_on "go" => :build
