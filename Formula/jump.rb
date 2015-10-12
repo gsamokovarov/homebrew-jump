@@ -1,9 +1,9 @@
 require "language/go"
 
 class Jump < Formula
-  desc "A fuzzy quick-directory jumper."
+  desc "A quick and fuzzy directory jumper."
   homepage "https://github.com/gsamokovarov/jump"
-  url "https://codeload.github.com/gsamokovarov/jump/tar.gz/v0.2.0"
+  url "https://codeload.github.com/gsamokovarov/jump/tar.gz/v0.3.0"
   sha256 "cd009129c7a2b90eb004df3fe7009b7d62ef48f144f66fb96f741f80f7e5a766"
   head "https://github.com/gsamokovarov/jump.git"
 
