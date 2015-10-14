@@ -17,6 +17,7 @@ class Jump < Formula
 
     system "go build -o jump"
     bin.install "jump"
+    man.install "man/jump.1"
   end
 
   def caveats; <<-EOS.undent
