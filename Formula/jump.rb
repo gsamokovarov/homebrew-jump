@@ -1,10 +1,10 @@
 require "language/go"
 
 class Jump < Formula
-  desc "A quick and fuzzy directory jumper."
+  desc "Quick and fuzzy directory jumper."
   homepage "https://github.com/gsamokovarov/jump"
-  url "https://codeload.github.com/gsamokovarov/jump/tar.gz/v0.5.0"
-  sha256 "1f7ac07e62b4ccb33f089e2fdf1269d6c491e7b640f089d321fcce04308edbc5"
+  url "https://codeload.github.com/gsamokovarov/jump/tar.gz/v0.5.1"
+  sha256 "6546efc8e8c63bd64e2b2fd8ff785c80e43d094014765c55b94a0fc1e811c6f2"
   head "https://github.com/gsamokovarov/jump.git"
 
   depends_on "go" => :build
@@ -30,6 +30,6 @@ class Jump < Formula
     ENV["JUMP_HOME"] = testpath.to_s
     system "#{bin}/jump", "chdir", "#{testpath}/test_dir"
 
-    assert_equal testpath/"test_dir", shell_output("#{bin}/jump cd tdir").chomp
+    assert_equal (testpath/"test_dir").to_s, shell_output("#{bin}/jump cd tdir").chomp
   end
 end
